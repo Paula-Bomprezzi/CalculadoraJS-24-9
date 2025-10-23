@@ -69,7 +69,7 @@ Para que esto pase, alguien tiene que estar mirando todo el tiempo que se haga c
 un addEventListener es una funcion que se ejecuta cuando sucede un evento, en este caso el click
 e es el evento, y se usa para obtener el valor del boton que se hizo click
 */
-btnNum1.addEventListener("click", function pressButton1(e){ //no espera parametro
+btnNum1.addEventListener("click", function pressButton1(e){ 
     console.log("Button 1 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
@@ -77,83 +77,82 @@ btnNum1.addEventListener("click", function pressButton1(e){ //no espera parametr
 
 
 //Ahora esto lo tenemos q hacer con todos los demas botones
-btnNum2.addEventListener("click", function pressButton2(e){ //no espera parametro
-    console.log("Button 2 clicked");
+btnNum2.addEventListener("click", function pressButton2(e){ 
     asignarValor(Number(e.target.innerText));
         document.getElementById("display").innerText= e.target.innerText;
    // document.getElementById("display").innerText= "2";
     //num2="2";
 });
 
-btnNum3.addEventListener("click", function pressButton3(e){ //no espera parametro
+btnNum3.addEventListener("click", function pressButton3(e){ 
     console.log("Button 3 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum4.addEventListener("click", function pressButton4(e){ //no espera parametro
+btnNum4.addEventListener("click", function pressButton4(e){ 
     console.log("Button 4 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum5.addEventListener("click", function pressButton5(e){ //no espera parametro
+btnNum5.addEventListener("click", function pressButton5(e){ 
     console.log("Button 5 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum6.addEventListener("click", function pressButton6(e){ //no espera parametro
+btnNum6.addEventListener("click", function pressButton6(e){ 
     console.log("Button 6 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum7.addEventListener("click", function pressButton7(e){ //no espera parametro
+btnNum7.addEventListener("click", function pressButton7(e){ 
     console.log("Button 7 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum8.addEventListener("click", function pressButton8(e){ //no espera parametro
+btnNum8.addEventListener("click", function pressButton8(e){ 
     console.log("Button 8 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum9.addEventListener("click", function pressButton9(e){ //no espera parametro
+btnNum9.addEventListener("click", function pressButton9(e){ 
     console.log("Button 9 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnNum0.addEventListener("click", function pressButton0(e){ //no espera parametro
+btnNum0.addEventListener("click", function pressButton0(e){ 
     console.log("Button 0 clicked");
     asignarValor(Number(e.target.innerText));
     document.getElementById("display").innerText= e.target.innerText;
 });
 
-btnOpSum.addEventListener("click", function pressButtonSuma() { //no espera parametro
+btnOpSum.addEventListener("click", function pressButtonSuma() { 
     console.log("Botón SUMA (+) clickeado");
     operacion="+";
 });
 
-btnOpRe.addEventListener("click", function pressButtonRe() { //no espera parametro
+btnOpRe.addEventListener("click", function pressButtonRe() { 
     console.log("Botón RESTA (-) clickeado");
     operacion="-";
 });
 
-btnOpM.addEventListener("click", function pressButtonM() { //no espera parametro
+btnOpM.addEventListener("click", function pressButtonM() { 
     console.log("Botón MULTIPLICACIÓN (*) clickeado");
     operacion="*";
 });
 
-btnOpDiv.addEventListener("click", function pressButtonDiv() { //no espera parametro
+btnOpDiv.addEventListener("click", function pressButtonDiv() { 
     console.log("Botón DIVISIÓN (/) clickeado");
     operacion="/";
 });
 
-btnOpIg.addEventListener("click", function pressButtonIgual(){ //no espera parametro
+btnOpIg.addEventListener("click", function pressButtonIgual(){ 
     console.log("Botón IGUAL (=) clickeado");
     console.log("Calculando:", valor1, operacion, valor2);
     //debugger;
